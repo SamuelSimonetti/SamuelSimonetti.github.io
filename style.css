@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+  background-image: url(img/Background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header {
+  text-align: center;
+  background-color: Black;
+  font-family: "Oxygen", sans-serif;
+  height: 120px;
+  background: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+span {
+  margin-left: 10px;
+  font-size: 20px;
+  margin-right: 10px;
+  border: solid black 1px;
+  padding: 5px;
+  border-radius: 12px;
+  color: black;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.menu:hover {
+  cursor: pointer;
+  color: white;
+  clear: left;
+  font-size: 22px;
+  background-color: black;
+}
+
+#imagemheader {
+  float: left;
+  width: 100px;
+  float: left;
+  position: absolute;
+  top: 12px;
+  left: 24px;
+}
+
+header h1 {
+  margin-left: 10px;
+  color: black;
+  font-family: "Oxygen", sans-serif;
+}
+
+main {
+  width: 1000px;
+  margin: 0 auto;
+  position: relative;
+  background-image: url(img/Background2.jpg);
+  border-radius: 20px;
+  margin-top: 150px;
+  margin-bottom: 100px;
+}
+
+section {
+  font-size: 15px;
+  text-align: center;
+  color: black;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  padding: 10px;
+}
+
+section img {
+  border-radius: 36px;
+}
+
+p {
+  font-size: 25px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+#backtotop {
+  background-color: #bcbfc4;
+  border: double #85878c 2px;
+  border-radius: 36px;
+  width: 24px;
+  position: fixed;
+  bottom: 20px;
+  right: 15px;
+  padding: 4px;
+  text-align: center;
+}
+
+#gallery {
+  width: 500px;
+  height: 350px;
+}
+
+#anterior {
+  float: left;
+}
+
+#proximo {
+  float: right;
+}
+
+.botoes {
+  cursor: pointer;
+  font-size: 20px;
+  padding: 8px;
+}
+
+.videos {
+  margin: 0 auto;
+  text-align: center;
+  width: 510px;
+  height: 450px;
+}
+
+.videoOff {
+  display: none;
+}
+
+.videoOn {
+  display: block;
+}
+
+.imge {
+  width: 300px;
+}
